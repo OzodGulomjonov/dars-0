@@ -1,0 +1,74 @@
+.section-about-me-header {
+   background-image: url(../../img/kompyuter_1x.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-left: 0;
+   padding-right: 0;
+   position: relative;
+   padding-top: 228px;
+   margin-top: 144px;
+}
+
+.section-about-me-header__text-wrapper {
+   background-color: $color-white;
+   max-width: 445px;
+   position: relative;
+}
+
+.section-about-me-header__text {
+   max-width: 390px;
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 50px;   
+   color: $color-grayish;
+   font-family: $font-family;
+   padding-top: 56px;
+}
+
+.section-about-me-header__btn {
+   display: block;
+   width: 100%;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 14px;
+   text-align: center;   
+   color: $color-white;
+   background: #203A4C;
+   padding-top: 17px;
+   padding-bottom: 17px;
+   border: none;
+   max-width: 200px;
+   transition: 0.5s;
+
+   &:hover {
+      background-color: $color-red;
+      transition: 0.5s;
+   }
+}
+
+.section-about-me-header__btn-img {
+   position: absolute;
+   bottom: 16px;
+   left: 16px;
+}
+
+@media only screen and (max-width:515px) {
+   
+   .section-about-me-header {
+      background-size: contain;
+      margin-top: 0;
+      margin-top: 40px;
+   }
+
+   .section-about-me-header__text {
+      margin: 0;
+      padding-top: 0;
+      font-size: 40px;
+      line-height: 42px;
+      max-width: 250px;
+   }
+
+   .section-about-me-header__text-wrapper {
+      padding-top: 0;
+   }
+}
