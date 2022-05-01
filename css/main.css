@@ -501,7 +501,10 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   position: absolute;
+  z-index: 10;
   text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
   padding-left: 64px;
   padding-right: 64px;
   right: 20px;
@@ -532,8 +535,6 @@ img {
   }
   .site-header__list--active {
     display: block;
-    padding-top: 40px;
-    padding-bottom: 40px;
   }
   .site-header__btn {
     display: block;
@@ -543,6 +544,7 @@ img {
 
 .section-about-me-header {
   background-image: url(../../img/kompyuter_1x.jpg);
+  z-index: 2;
   background-repeat: no-repeat;
   background-size: cover;
   padding-left: 0;
